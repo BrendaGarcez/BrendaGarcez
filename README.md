@@ -1,6 +1,6 @@
 ### Hi there!! I'm Brenda Garcez 👋
 
-<img align="right" alt="GIF" src="https://octodex.github.com/nuxtocat/" width="360px" border-radius="50%"/>
+<img align="right" alt="GIF" src="https://octodex.github.com/images/NUX_Octodex.gif" width="360px" border-radius="50%"/>
 
 
 - 🔭 I currently work as an IT intern
