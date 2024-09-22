@@ -1,9 +1,10 @@
 ### Hi there!! I'm Brenda Garcez 👋
 
-<img align="right" alt="GIF" src="(https://img.freepik.com/premium-vector/single-one-line-drawing-programmers-developers-make-programming-language-code-front-computer-programming-code-concept-continuous-line-draw-design-graphic-vector-illustration_638785-1246.jpg)" width="360px" border-radius="50%"/>
+<img align="right" alt="GIF" src="![image](https://github.com/user-attachments/assets/6e162a53-8aec-409e-b8bf-fa53d0520f9a)
+" width="360px" border-radius="50%"/>
 
 
-- 🔭 I currently work in IT intern
+- 🔭 I currently work as an IT intern
 - 🌱 Studying systems Computer Ciences(UTFPR), participating in robotics and IOT laboratory.
   
 ## 🌐 Socials:
