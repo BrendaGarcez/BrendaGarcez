@@ -6,13 +6,13 @@
 - 🔭 I currently work as an IT intern
 - 🌱 Studying systems Computer Ciences(UTFPR), participating in robotics and IOT laboratory.
   
-## 🌐 Socials:
+### 🌐 Socials:
 
 [![Blog](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)]((https://www.instagram.com/bamy._?igsh=cmg3ZWRhc2Z4anpv))
 [![Blog](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/brenda-garcez-4a3b6b228?trk=people-guest_people_search-card)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brenda.garcez04@gmail.com) 
 
-## 📊 GitHub Stats:
+### 📊 GitHub Stats:
 
 ![BrendaGarcez GitHub stats](https://github-readme-stats.vercel.app/api?username=BrendaGarcez&show_icons=true&theme=tokyonight)
 
