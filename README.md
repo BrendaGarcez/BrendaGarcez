@@ -1,7 +1,6 @@
 ### Hi there!! I'm Brenda Garcez 👋
 
-<img align="right" alt="GIF" src="![image](https://github.com/user-attachments/assets/6e162a53-8aec-409e-b8bf-fa53d0520f9a)
-" width="360px" border-radius="50%"/>
+<img align="right" alt="GIF" src="https://octodex.github.com/images/NUX_Octodex.gif" width="360px" border-radius="50%"/>
 
 
 - 🔭 I currently work as an IT intern
