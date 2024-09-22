@@ -1,6 +1,6 @@
 ### Hi there!! I'm Brenda Garcez 👋
 
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/ThiagoPereira232/ThiagoPereira232/main/imgs/Code%20typing.gif" width="360px" border-radius="50%"/>
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/ThiagoPereira232/ThiagoPereira232/main/imgs/Code%20typing.gif" width="360px" border-radius="40%"/>
 
 
 - 🔭 I currently work as an IT intern
