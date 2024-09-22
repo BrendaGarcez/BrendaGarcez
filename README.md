@@ -1,10 +1,11 @@
 ### Hi there!! I'm Brenda Garcez 👋
 
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/ThiagoPereira232/ThiagoPereira232/main/imgs/Code%20typing.gif" width="360px" border-radius="50%"/>
+<img align="right" alt="GIF" src="https://octodex.github.com/nuxtocat/" width="360px" border-radius="50%"/>
 
 
 - 🔭 I currently work as an IT intern
-- 🌱 Studying systems Computer Ciences(UTFPR), participating in robotics and IOT laboratory.
+- 🌱 Studying systems Computer Ciences(UTFPR), participating in robotics and
+  IOT laboratory.
   
 ## 🌐 Socials:
 
