@@ -1,6 +1,6 @@
 ### Hi there!! I'm Brenda Garcez 👋
 
-<img align="right" alt="PNG" src="https://octodex.github.com/images/Fintechtocat.png" width="400px" border-radius="50%"/>
+<img align="right" alt="GIF" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW9tOXQxNWs4emhnYzgwMGo0OHRyMWdrM2F6cHIydTJnaDdoODZndyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rpl1sod1vCXK0L2SUN/giphy.gif" width="400px" border-radius="50%"/>
 
 
 - 🔭 I currently work as an IT intern
