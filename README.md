@@ -4,7 +4,7 @@
 
 
 - 🔭 I currently work as an IT intern
-- 🌱 Studying systems Computer Ciences(UTFPR), participating in robotics and IOT laboratory.
+- 🌱 Studying Computer Science at UTFPR, participating in the Robotics and IoT Laboratory.
   
 ### 🌐 Socials:
 
