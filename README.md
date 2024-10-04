@@ -12,6 +12,9 @@
 [![Blog](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/brenda-garcez-4a3b6b228?trk=people-guest_people_search-card)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brenda.garcez04@gmail.com) 
 
+### Linguagens mais utilizadas
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USERNAME_AQUI&layout=compact&theme=radical)
+
 ### 📊 GitHub Stats:
 
 ![BrendaGarcez GitHub stats](https://github-readme-stats.vercel.app/api?username=BrendaGarcez&show_icons=true&theme=tokyonight)
