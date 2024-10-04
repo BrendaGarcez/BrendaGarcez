@@ -13,7 +13,7 @@
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brenda.garcez04@gmail.com) 
 
 ### Linguagens mais utilizadas
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USERNAME_AQUI&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BrendaGarcez&layout=compact&theme=radical)
 
 ### 📊 GitHub Stats:
 
