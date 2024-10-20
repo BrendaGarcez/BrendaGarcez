@@ -10,7 +10,6 @@
 
 [![Blog](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bamy._?igsh=cmg3ZWRhc2Z4anpv)
 [![Blog](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/brenda-garcez-4a3b6b228?trk=people-guest_people_search-card)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mail:brenda.garcez04@gmail.com)
 
 ### Linguagens mais utilizadas
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BrendaGarcez&layout=compact&theme=radical)
