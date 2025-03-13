@@ -4,7 +4,7 @@ Brenda Garcez - Personal Portfolio
 
 alt = Brenda Garcez
 Brenda Garcez
-Computer Science student
+Estudante de Ciência da Computação
 
 Mostrar Contatos
 
