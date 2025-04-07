@@ -12,7 +12,7 @@
 [![Blog](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/brenda-garcez-4a3b6b228?trk=people-guest_people_search-card)
 
 ### Linguagens mais utilizadas
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BrendaGarcez&layout=compact&theme=radical&hide=html)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BrendaGarcez&layout=compact&theme=radical&hide=html, teX)
 
 ### 📊 GitHub Stats:
 
