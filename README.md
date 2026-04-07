@@ -1,8 +1,8 @@
 # 👋 Hi there! I'm Brenda Garcez  
 
 💻 Computer Science student at **UTFPR**  
-🤖 Member of the **Robotics and IoT Laboratory**  
-🚀 IT Intern | Focused on AI, Robotics and Development  
+🤖 Member of the **Robotics, IoT and IA Laboratory**  
+🚀 IT Intern in Infrastructure | Focused on AI, Robotics, Development and Cybersecurity.
 
 ---
 
