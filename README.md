@@ -34,14 +34,9 @@
 
 ## ✨ Featured Projects
 🚧 *Coming soon...*  
-(Add here your robotics, AI or web projects)
 
 ---
 
-## 🐍 Contribution Snake
-![snake gif](https://github.com/BrendaGarcez/BrendaGarcez/blob/output/github-contribution-grid-snake.svg)
-
----
 
 ## 💡 Fun Fact
 I love building things that mix **hardware + software + intelligence** 🤖
