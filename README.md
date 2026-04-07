@@ -1,31 +1,55 @@
-### Hi there!! I'm Brenda Garcez 👋
+# 👋 Hi there! I'm Brenda Garcez  
 
-<img align="right" alt="GIF" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW9tOXQxNWs4emhnYzgwMGo0OHRyMWdrM2F6cHIydTJnaDdoODZndyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rpl1sod1vCXK0L2SUN/giphy.gif" width="400px" border-radius="50%"/>
+💻 Computer Science student at **UTFPR**  
+🤖 Member of the **Robotics and IoT Laboratory**  
+🚀 IT Intern | Focused on AI, Robotics and Development  
 
+---
 
-- 🔭 I currently work as an IT intern
-- 🌱 Studying Computer Science at UTFPR, participating in the Robotics and IoT Laboratory.
-  
-### 🌐 Socials:
+## 🚀 About Me
+- 🔭 Currently working as an **IT Intern**
+- 🌱 Learning more about **Artificial Intelligence, Robotics and Web Development**
+- 💡 Interested in **Computer Vision, Embedded Systems and Automation**
+- 🎯 Goal: Become a specialist in **AI-driven systems and robotics**
 
-[![Blog](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bamy._?igsh=cmg3ZWRhc2Z4anpv)
-[![Blog](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/brenda-garcez-4a3b6b228?trk=people-guest_people_search-card)
+---
 
-### Linguagens mais utilizadas
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BrendaGarcez&layout=compact&theme=radical&hide=teX,html)
+## 🌐 Connect with me
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bamy._)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/brenda-garcez-4a3b6b228)
 
-### 📊 GitHub Stats:
+---
 
-![BrendaGarcez GitHub stats](https://github-readme-stats.vercel.app/api?username=BrendaGarcez&show_icons=true&theme=tokyonight)
-
-### 💻 Technologies that I use in my job:
-<div style="display: inline_block">
-  <img align="center" alt="HTML5" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" />
-  <img align="center" alt="HTML5" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img align="center" alt="HTML5" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" />
-  <img align="center" alt="HTML5" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img align="center" alt="HTML5" src="https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white" />
-  <img align="center" alt="HTML5" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img align="center" alt="HTML5" src="https://img.shields.io/badge/C++-005C84?style=for-the-badge&logo=C++&logoColor=white"/>
+## 🧠 Tech Stack
+<div style="display: inline_block"><br/>
+  <img align="center" alt="HTML" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+  <img align="center" alt="CSS" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
+  <img align="center" alt="Python" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+  <img align="center" alt="C" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"/>
+  <img align="center" alt="C++" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"/>
+  <img align="center" alt="MySQL" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/>
 </div>
-#Code WebPortifolio by https://github.com/codewithsadee
+
+---
+
+## 📊 GitHub Stats
+<div align="center">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=BrendaGarcez&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BrendaGarcez&layout=compact&theme=tokyonight"/>
+</div>
+
+---
+
+## ✨ Featured Projects
+🚧 *Coming soon...*  
+(Add here your robotics, AI or web projects)
+
+---
+
+## 🐍 Contribution Snake
+![snake gif](https://github.com/BrendaGarcez/BrendaGarcez/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+## 💡 Fun Fact
+I love building things that mix **hardware + software + intelligence** 🤖
