@@ -379,7 +379,7 @@ main {
 }
 
 .info_more-btn:hover,
-.info_more-btn:focus { background: var(--bg-gradient-yellow-1); }
+.info_more-btn:focus { background: var(--bg-gradient-onyx); }
 
 .info_more-btn:hover::before,
 .info_more-btn:focus::before { background: var(--bg-gradient-yellow-2); }
@@ -1208,7 +1208,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn ion-icon { font-size: 16px; }
 
-.form-btn:hover { background: var(--bg-gradient-yellow-1); }
+.form-btn:hover { background: var(--bg-gradient-onyx); }
 
 .form-btn:hover::before { background: var(--bg-gradient-yellow-2); }
 
@@ -2004,7 +2004,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   flex-direction: column-reverse;
   gap: 40px;
   margin-bottom: 50px;
-  background: var(--bg-gradient-yellow-1);
+  background: var(--bg-gradient-onyx);
   border: 1px solid var(--jet);
   border-radius: 24px;
   padding: 40px;
@@ -2025,7 +2025,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: radial-gradient(circle at top right, rgba(139, 92, 246, 0.1), transparent 50%);
+  background: radial-gradient(circle at top right, rgba(139, 92, 246, 0.05), transparent 40%);
   pointer-events: none;
 }
 
@@ -2272,4 +2272,5 @@ textarea.form-input::-webkit-resizer { display: none; }
   border-color: rgba(139, 92, 246, 0.4);
   box-shadow: 0 4px 10px rgba(139, 92, 246, 0.1);
 }
+
 
