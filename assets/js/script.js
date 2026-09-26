@@ -169,3 +169,19 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+// Hero Roles Animation
+const roleTags = document.querySelectorAll('.role-tag');
+if (roleTags.length > 0) {
+  let currentRoleIndex = 0;
+  
+  setInterval(() => {
+    // Remove active class from current
+    roleTags[currentRoleIndex].classList.remove('active');
+    
+    // Move to next index
+    currentRoleIndex = (currentRoleIndex + 1) % roleTags.length;
+    
+    // Add active class to new
+    roleTags[currentRoleIndex].classList.add('active');
+  }, 2500); // Change every 2.5 seconds
+}

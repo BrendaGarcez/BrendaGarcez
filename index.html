@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -48,7 +48,7 @@
         <div class="info-content">
           <h1 class="name" title="Brenda Garcez">Brenda Garcez</h1>
 
-          <p class="title">CS Student & Developer</p>
+          <p class="title">Desenvolvimento &amp; Automações</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -195,68 +195,82 @@
 
       <article class="about  active" data-page="about">
 
-        <header>
-          <h2 class="h2 article-title">Sobre mim</h2>
-        </header>
-
-        <!-- Tech SVG Animation - Neural Network -->
-        <div class="tech-svg-container" style="max-width: 500px; margin: 0 auto 25px auto;">
-          <svg class="tech-svg-animation" viewBox="0 0 420 160" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;">
-            <!-- Layer connections -->
-            <line class="svg-line" x1="60" y1="45" x2="160" y2="30" stroke="var(--orange-yellow-crayola)" stroke-width="1.5" opacity="0.6"/>
-            <line class="svg-line" x1="60" y1="45" x2="160" y2="80" stroke="var(--orange-yellow-crayola)" stroke-width="1.5" opacity="0.6"/>
-            <line class="svg-line" x1="60" y1="115" x2="160" y2="30" stroke="var(--vegas-gold)" stroke-width="1.5" opacity="0.5"/>
-            <line class="svg-line" x1="60" y1="115" x2="160" y2="80" stroke="var(--vegas-gold)" stroke-width="1.5" opacity="0.5"/>
-            <line class="svg-line" x1="60" y1="115" x2="160" y2="130" stroke="var(--vegas-gold)" stroke-width="1.5" opacity="0.5"/>
-            <line class="svg-line" x1="60" y1="45" x2="160" y2="130" stroke="var(--orange-yellow-crayola)" stroke-width="1" opacity="0.3" stroke-dasharray="3"/>
-            <!-- Hidden layer -->
-            <line class="svg-line" x1="160" y1="30" x2="260" y2="45" stroke="var(--orange-yellow-crayola)" stroke-width="1.5" opacity="0.7"/>
-            <line class="svg-line" x1="160" y1="30" x2="260" y2="115" stroke="var(--vegas-gold)" stroke-width="1" opacity="0.4" stroke-dasharray="3"/>
-            <line class="svg-line" x1="160" y1="80" x2="260" y2="45" stroke="var(--vegas-gold)" stroke-width="1.5" opacity="0.6"/>
-            <line class="svg-line" x1="160" y1="80" x2="260" y2="115" stroke="var(--orange-yellow-crayola)" stroke-width="1.5" opacity="0.6"/>
-            <line class="svg-line" x1="160" y1="130" x2="260" y2="45" stroke="var(--orange-yellow-crayola)" stroke-width="1" opacity="0.3" stroke-dasharray="3"/>
-            <line class="svg-line" x1="160" y1="130" x2="260" y2="115" stroke="var(--vegas-gold)" stroke-width="1.5" opacity="0.7"/>
-            <!-- Output connections -->
-            <line class="svg-line" x1="260" y1="45" x2="360" y2="80" stroke="var(--orange-yellow-crayola)" stroke-width="2" opacity="0.8"/>
-            <line class="svg-line" x1="260" y1="115" x2="360" y2="80" stroke="var(--vegas-gold)" stroke-width="2" opacity="0.8"/>
-            <!-- Input nodes -->
-            <circle class="svg-node" cx="60" cy="45" r="7" fill="var(--vegas-gold)" opacity="0.9"/>
-            <circle class="svg-node" cx="60" cy="115" r="7" fill="var(--vegas-gold)" opacity="0.9"/>
-            <!-- Hidden layer nodes -->
-            <circle class="svg-node" cx="160" cy="30" r="9" fill="var(--orange-yellow-crayola)"/>
-            <circle class="svg-node" cx="160" cy="80" r="11" fill="var(--orange-yellow-crayola)"/>
-            <circle class="svg-node" cx="160" cy="130" r="9" fill="var(--orange-yellow-crayola)"/>
-            <!-- Hidden layer 2 -->
-            <circle class="svg-node" cx="260" cy="45" r="9" fill="var(--vegas-gold)"/>
-            <circle class="svg-node" cx="260" cy="115" r="9" fill="var(--vegas-gold)"/>
-            <!-- Output node -->
-            <circle class="svg-node" cx="360" cy="80" r="12" fill="var(--orange-yellow-crayola)"/>
-          </svg>
+        <!-- HERO SECTION -->
+        <div class="about-hero">
+          <div class="about-hero-text">
+            <div class="hero-greeting">Olá, eu sou</div>
+            <h1 class="hero-name">Brenda Garcez</h1>
+            <div class="hero-roles">
+              <span class="role-tag active" id="role-0">🤖 IA &amp; Automações</span>
+              <span class="role-tag" id="role-1">🔬 Visão Computacional</span>
+              <span class="role-tag" id="role-2">💻 Desenvolvimento</span>
+              <span class="role-tag" id="role-3">⚙️ IoT &amp; Sistemas</span>
+            </div>
+            <p class="hero-bio">
+              Estudante de <strong>Ciência da Computação</strong> na UTFPR — Ponta Grossa.
+              Líder de projeto no <strong>LABRIOT</strong> e estagiária de TI na <strong>Neuwerk Brasil</strong>.
+              Apaixonada por construir soluções inteligentes e escaláveis com IA, automação e dados.
+            </p>
+            <div class="hero-links">
+              <a href="https://github.com/BrendaGarcez" target="_blank" class="hero-btn hero-btn-primary">
+                <ion-icon name="logo-github"></ion-icon> GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/brendagarcez/" target="_blank" class="hero-btn hero-btn-outline">
+                <ion-icon name="logo-linkedin"></ion-icon> LinkedIn
+              </a>
+            </div>
+          </div>
+          <div class="about-hero-visual">
+            <div class="hero-avatar-wrap">
+              <img src="./assets/images/perfil.jpeg" alt="Brenda Garcez" class="hero-avatar-img">
+              <div class="hero-avatar-glow"></div>
+            </div>
+          </div>
         </div>
 
-        <section class="about-text">
-          <p>
-            Sou estudante de Ciência da Computação na UTFPR — campus Ponta Grossa, com foco em <strong>automações</strong>, 
-            <strong>Inteligência Artificial</strong> e integração de sistemas. Meu objetivo é atuar na otimização de processos 
-            e construção de aplicações escaláveis orientadas a dados.
-          </p>
+        <!-- STATS BAR -->
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-number">10<span class="stat-plus">+</span></span>
+            <span class="stat-label">Projetos</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">5</span>
+            <span class="stat-label">Linguagens</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">2<span class="stat-plus">+</span></span>
+            <span class="stat-label">Anos de XP</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">1</span>
+            <span class="stat-label">Laboratório (LABRIOT)</span>
+          </div>
+        </div>
 
-          <p>
-            Tenho experiência prática com visão computacional (YOLO), IoT (Raspberry Pi / Arduino), n8n, e
-            desenvolvimento backend e frontend. Sou líder de projeto no <strong>LABRIOT</strong> (Laboratório de Robótica da UTFPR)
-            e atualmente estagiando em TI na Neuwerk Brasil.
-          </p>
-        </section>
+        <!-- TECH STACK CHIPS -->
+        <div class="tech-stack-section">
+          <p class="tech-stack-label">Stack principal</p>
+          <div class="tech-chips">
+            <span class="tech-chip">Python</span>
+            <span class="tech-chip">YOLOv8</span>
+            <span class="tech-chip">Java</span>
+            <span class="tech-chip">React</span>
+            <span class="tech-chip">TypeScript</span>
+            <span class="tech-chip">n8n</span>
+            <span class="tech-chip">Docker</span>
+            <span class="tech-chip">Roboflow</span>
+            <span class="tech-chip">Supabase</span>
+            <span class="tech-chip">Flutter</span>
+          </div>
+        </div>
 
-
-        <!--
-          - service
-        -->
-
+        <!-- O QUE FAÇO -->
         <section class="service">
-
           <h3 class="h3 service-title">O que faço</h3>
-
           <ul class="service-list">
 
             <li class="service-item">
@@ -266,49 +280,48 @@
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Inteligência Artificial</h4>
                 <p class="service-item-text">
-                  Modelos de visão computacional (YOLOv8), automação de processos e análise inteligente de dados com Python e Roboflow.
+                  Modelos de visão computacional (YOLOv8), automação de processos e análise de dados com Python e Roboflow.
                 </p>
               </div>
             </li>
 
             <li class="service-item">
               <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="Mobile icon" width="40">
+                <img src="./assets/images/icon-design.svg" alt="Automation icon" width="40">
               </div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Desenvolvimento Mobile</h4>
+                <h4 class="h4 service-item-title">Automação &amp; Integrações</h4>
                 <p class="service-item-text">
-                  Aplicações cross-platform com Flutter e Dart, com foco em experiências fluidas e interfaces intuitivas.
+                  Workflows com n8n, integração de APIs, automação de processos e sistemas orientados a dados.
                 </p>
               </div>
             </li>
 
             <li class="service-item">
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="Systems icon" width="40">
+                <img src="./assets/images/icon-app.svg" alt="Dev icon" width="40">
               </div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Sistemas & Infraestrutura</h4>
+                <h4 class="h4 service-item-title">Desenvolvimento Full Stack</h4>
                 <p class="service-item-text">
-                  Sistemas automatizados, integração com IoT (Raspberry Pi / Arduino) e suporte técnico corporativo.
+                  Backend com Java (Spring Boot) e Python, frontend com React e TypeScript, banco de dados relacionais.
                 </p>
               </div>
             </li>
 
             <li class="service-item">
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web icon" width="40">
+                <img src="./assets/images/icon-dev.svg" alt="IoT icon" width="40">
               </div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Desenvolvimento Web</h4>
+                <h4 class="h4 service-item-title">IoT &amp; Sistemas Embarcados</h4>
                 <p class="service-item-text">
-                  Aplicações web responsivas, APIs RESTful e gerenciamento de bancos de dados relacionais.
+                  Integração com hardware (Raspberry Pi, Arduino), protocolos seriais e sensores físicos em tempo real.
                 </p>
               </div>
             </li>
 
           </ul>
-
         </section>
 
 
@@ -744,18 +757,63 @@
               </a>
             </li>
 
-            <!-- InventoryFlow -->
-            <li class="project-item active" data-filter-item data-category="mobile & app">
-              <a href="https://github.com/BrendaGarcez/inventoryflow" target="_blank">
+            <!-- Unimed Trace -->
+            <li class="project-item active" data-filter-item data-category="systems &amp; infra">
+              <a href="https://github.com/BrendaGarcez/unimed-trace" target="_blank">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="logo-github"></ion-icon>
                   </div>
-                  <img src="./assets/images/project-4.png" alt="InventoryFlow" loading="lazy">
+                  <img src="./assets/images/project-unimed-trace.jpg" alt="Unimed Trace" loading="lazy">
                 </figure>
-                <h3 class="project-title">InventoryFlow</h3>
-                <p class="project-category">Mobile & App</p>
-                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">App Flutter de gestão de estoque com backend PocketBase e relatórios Excel nativos. (Dart, Flutter)</p>
+                <h3 class="project-title">Unimed Trace</h3>
+                <p class="project-category">Systems &amp; Infra</p>
+                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">Sistema web de rastreabilidade de lotes e reagentes para laboratórios clínicos da Unimed. Substitui controles manuais e atende exigências PALC. (TypeScript, Nuxt)</p>
+              </a>
+            </li>
+
+            <!-- Artemis -->
+            <li class="project-item active" data-filter-item data-category="artificial intelligence">
+              <a href="https://github.com/BrendaGarcez/artemis" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-artemis.jpg" alt="Artemis" loading="lazy">
+                </figure>
+                <h3 class="project-title">Artemis — Triagem de Riscos em Saúde</h3>
+                <p class="project-category">Artificial Intelligence</p>
+                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">Modelo de ML em Python para análise de riscos e triagem de incidentes em saúde. Treinado com scikit-learn, deploy via FastAPI. (Python, LABRIOT)</p>
+              </a>
+            </li>
+
+            <!-- Sistema para Concursos -->
+            <li class="project-item active" data-filter-item data-category="mobile &amp; app">
+              <a href="https://github.com/BrendaGarcez/sistema-para-concursos" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-concursos.jpg" alt="Concursos App" loading="lazy">
+                </figure>
+                <h3 class="project-title">Concursos App</h3>
+                <p class="project-category">Mobile &amp; App</p>
+                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">App Flutter para estudo de concursos públicos com resolução de questões, gabarito comentado e histórico via Firebase Firestore. (Dart, Flutter, Firebase)</p>
+              </a>
+            </li>
+
+            <!-- SoilSensor -->
+            <li class="project-item active" data-filter-item data-category="systems &amp; infra">
+              <a href="https://github.com/BrendaGarcez/soilsensor" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-soilsensor.jpg" alt="SoilSensor" loading="lazy">
+                </figure>
+                <h3 class="project-title">SoilSensor — Monitor de Solo</h3>
+                <p class="project-category">Systems &amp; Infra</p>
+                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">App web para monitoramento em tempo real de sensor de solo 7-em-1 RS485 via Web Serial API, sem servidor. Dashboard com glassmorphism e dark mode. (TypeScript)</p>
               </a>
             </li>
 
