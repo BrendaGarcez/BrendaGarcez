@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -22,7 +22,7 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -48,7 +48,7 @@
         <div class="info-content">
           <h1 class="name" title="Brenda Garcez">Brenda Garcez</h1>
 
-          <p class="title">Computer Science student</p>
+          <p class="title">CS Student & Developer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -116,7 +116,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Ponta Grossa, Paraná/BR</address>
+              <address>Ponta Grossa, PR — Brasil</address>
             </div>
 
           </li>
@@ -170,28 +170,16 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link  active" data-nav-link>Sobre mim</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link>Currículo</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Projetos</button>
           </li>
-
-          <!--
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-          -->
-
-          <!--
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-          -->
 
         </ul>
 
@@ -208,37 +196,55 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">Sobre mim</h2>
         </header>
 
-        <!-- Tech SVG Animation -->
+        <!-- Tech SVG Animation - Neural Network -->
         <div class="tech-svg-container" style="max-width: 500px; margin: 0 auto 25px auto;">
-          <svg class="tech-svg-animation" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;">
-            <!-- Lines -->
-            <line class="svg-line" x1="50" y1="75" x2="150" y2="30" stroke="var(--orange-yellow-crayola)" stroke-width="2"/>
-            <line class="svg-line" x1="150" y1="30" x2="250" y2="120" stroke="var(--vegas-gold)" stroke-width="2"/>
-            <line class="svg-line" x1="250" y1="120" x2="350" y2="75" stroke="var(--orange-yellow-crayola)" stroke-width="2"/>
-            <line class="svg-line" x1="150" y1="30" x2="250" y2="30" stroke="var(--vegas-gold)" stroke-width="1" stroke-dasharray="4"/>
-            <line class="svg-line" x1="250" y1="120" x2="150" y2="120" stroke="var(--vegas-gold)" stroke-width="1" stroke-dasharray="4"/>
-            <line class="svg-line" x1="50" y1="75" x2="150" y2="120" stroke="var(--orange-yellow-crayola)" stroke-width="2"/>
-            <!-- Nodes -->
-            <circle class="svg-node" cx="50" cy="75" r="8" fill="var(--orange-yellow-crayola)" />
-            <circle class="svg-node" cx="150" cy="30" r="12" fill="var(--vegas-gold)" />
-            <circle class="svg-node" cx="250" cy="120" r="10" fill="var(--orange-yellow-crayola)" />
-            <circle class="svg-node" cx="350" cy="75" r="8" fill="var(--vegas-gold)" />
-            <circle class="svg-node" cx="150" cy="120" r="8" fill="var(--orange-yellow-crayola)" />
-            <circle class="svg-node" cx="250" cy="30" r="8" fill="var(--vegas-gold)" />
+          <svg class="tech-svg-animation" viewBox="0 0 420 160" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;">
+            <!-- Layer connections -->
+            <line class="svg-line" x1="60" y1="45" x2="160" y2="30" stroke="var(--orange-yellow-crayola)" stroke-width="1.5" opacity="0.6"/>
+            <line class="svg-line" x1="60" y1="45" x2="160" y2="80" stroke="var(--orange-yellow-crayola)" stroke-width="1.5" opacity="0.6"/>
+            <line class="svg-line" x1="60" y1="115" x2="160" y2="30" stroke="var(--vegas-gold)" stroke-width="1.5" opacity="0.5"/>
+            <line class="svg-line" x1="60" y1="115" x2="160" y2="80" stroke="var(--vegas-gold)" stroke-width="1.5" opacity="0.5"/>
+            <line class="svg-line" x1="60" y1="115" x2="160" y2="130" stroke="var(--vegas-gold)" stroke-width="1.5" opacity="0.5"/>
+            <line class="svg-line" x1="60" y1="45" x2="160" y2="130" stroke="var(--orange-yellow-crayola)" stroke-width="1" opacity="0.3" stroke-dasharray="3"/>
+            <!-- Hidden layer -->
+            <line class="svg-line" x1="160" y1="30" x2="260" y2="45" stroke="var(--orange-yellow-crayola)" stroke-width="1.5" opacity="0.7"/>
+            <line class="svg-line" x1="160" y1="30" x2="260" y2="115" stroke="var(--vegas-gold)" stroke-width="1" opacity="0.4" stroke-dasharray="3"/>
+            <line class="svg-line" x1="160" y1="80" x2="260" y2="45" stroke="var(--vegas-gold)" stroke-width="1.5" opacity="0.6"/>
+            <line class="svg-line" x1="160" y1="80" x2="260" y2="115" stroke="var(--orange-yellow-crayola)" stroke-width="1.5" opacity="0.6"/>
+            <line class="svg-line" x1="160" y1="130" x2="260" y2="45" stroke="var(--orange-yellow-crayola)" stroke-width="1" opacity="0.3" stroke-dasharray="3"/>
+            <line class="svg-line" x1="160" y1="130" x2="260" y2="115" stroke="var(--vegas-gold)" stroke-width="1.5" opacity="0.7"/>
+            <!-- Output connections -->
+            <line class="svg-line" x1="260" y1="45" x2="360" y2="80" stroke="var(--orange-yellow-crayola)" stroke-width="2" opacity="0.8"/>
+            <line class="svg-line" x1="260" y1="115" x2="360" y2="80" stroke="var(--vegas-gold)" stroke-width="2" opacity="0.8"/>
+            <!-- Input nodes -->
+            <circle class="svg-node" cx="60" cy="45" r="7" fill="var(--vegas-gold)" opacity="0.9"/>
+            <circle class="svg-node" cx="60" cy="115" r="7" fill="var(--vegas-gold)" opacity="0.9"/>
+            <!-- Hidden layer nodes -->
+            <circle class="svg-node" cx="160" cy="30" r="9" fill="var(--orange-yellow-crayola)"/>
+            <circle class="svg-node" cx="160" cy="80" r="11" fill="var(--orange-yellow-crayola)"/>
+            <circle class="svg-node" cx="160" cy="130" r="9" fill="var(--orange-yellow-crayola)"/>
+            <!-- Hidden layer 2 -->
+            <circle class="svg-node" cx="260" cy="45" r="9" fill="var(--vegas-gold)"/>
+            <circle class="svg-node" cx="260" cy="115" r="9" fill="var(--vegas-gold)"/>
+            <!-- Output node -->
+            <circle class="svg-node" cx="360" cy="80" r="12" fill="var(--orange-yellow-crayola)"/>
           </svg>
         </div>
 
         <section class="about-text">
           <p>
-            I am a Computer Science student at UTFPR, Ponta Grossa campus. 
-            My expertise spans Artificial Intelligence, Mobile App Development, and Infrastructure & Systems. I have strong experience developing automated solutions, leveraging computer vision (YOLO), and working with IoT (Raspberry Pi/Arduino).
+            Sou estudante de Ciência da Computação na UTFPR — campus Ponta Grossa, com foco em <strong>automações</strong>, 
+            <strong>Inteligência Artificial</strong> e integração de sistemas. Meu objetivo é atuar na otimização de processos 
+            e construção de aplicações escaláveis orientadas a dados.
           </p>
 
           <p>
-            With solid foundations in C, C++, Python, Dart, and JavaScript, I am constantly exploring new technologies to build scalable, data-driven, and highly integrated systems.
+            Tenho experiência prática com visão computacional (YOLO), IoT (Raspberry Pi / Arduino), n8n, e
+            desenvolvimento backend e frontend. Sou líder de projeto no <strong>LABRIOT</strong> (Laboratório de Robótica da UTFPR)
+            e atualmente estagiando em TI na Neuwerk Brasil.
           </p>
         </section>
 
@@ -249,7 +255,7 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">O que faço</h3>
 
           <ul class="service-list">
 
@@ -258,9 +264,9 @@
                 <img src="./assets/images/icon-dev.svg" alt="AI icon" width="40">
               </div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+                <h4 class="h4 service-item-title">Inteligência Artificial</h4>
                 <p class="service-item-text">
-                  Development of computer vision models (YOLO), process automation, and intelligent data analysis.
+                  Modelos de visão computacional (YOLOv8), automação de processos e análise inteligente de dados com Python e Roboflow.
                 </p>
               </div>
             </li>
@@ -270,9 +276,9 @@
                 <img src="./assets/images/icon-app.svg" alt="Mobile icon" width="40">
               </div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile App Development</h4>
+                <h4 class="h4 service-item-title">Desenvolvimento Mobile</h4>
                 <p class="service-item-text">
-                  Creation of cross-platform applications using Flutter and Dart, focusing on fluid user experiences.
+                  Aplicações cross-platform com Flutter e Dart, com foco em experiências fluidas e interfaces intuitivas.
                 </p>
               </div>
             </li>
@@ -282,9 +288,9 @@
                 <img src="./assets/images/icon-design.svg" alt="Systems icon" width="40">
               </div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Systems & Infrastructure</h4>
+                <h4 class="h4 service-item-title">Sistemas & Infraestrutura</h4>
                 <p class="service-item-text">
-                  Implementation of automated systems, IoT integrations (Raspberry Pi/Arduino), and corporate IT support.
+                  Sistemas automatizados, integração com IoT (Raspberry Pi / Arduino) e suporte técnico corporativo.
                 </p>
               </div>
             </li>
@@ -294,9 +300,9 @@
                 <img src="./assets/images/icon-dev.svg" alt="Web icon" width="40">
               </div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web Development</h4>
+                <h4 class="h4 service-item-title">Desenvolvimento Web</h4>
                 <p class="service-item-text">
-                  Building responsive web applications, developing RESTful APIs, and managing relational databases.
+                  Aplicações web responsivas, APIs RESTful e gerenciamento de bancos de dados relacionais.
                 </p>
               </div>
             </li>
@@ -467,7 +473,7 @@
       <article class="resume" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Resume</h2>
+          <h2 class="h2 article-title">Currículo</h2>
         </header>
 
         <div style="margin-bottom: 30px; display: flex; justify-content: flex-start;">
@@ -484,32 +490,31 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Education</h3>
+            <h3 class="h3">Formação</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Technological University of Paraná(UTFPR)</h4>
+              <h4 class="h4 timeline-item-title">Universidade Tecnológica Federal do Paraná (UTFPR)</h4>
 
-              <span>2023 — Present</span>
+              <span>2023 — atualmente</span>
 
               <p class="timeline-text">
-                Computer Science program focused on the study of algorithms, data structures, artificial intelligence, computer networks, and databases. 
-                The program provides a solid foundation in programming, software development, and problem-solving.
+                Bacharelado em Ciência da Computação no campus Ponta Grossa/PR. Formação sólida em algoritmos, estrutura de dados, inteligência artificial, redes de computadores e banco de dados.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">São Paulo State Technical School(ETEC Demétrio Azevedo Junior)</h4>
+              <h4 class="h4 timeline-item-title">ETEC Dr. Demétrio de Azevedo Júnior</h4>
 
-              <span>2020 — 2021</span>
+              <span>2021</span>
 
               <p class="timeline-text">
-                Student in a Technical Course in Systems Development, with a focus on web design and database management
+                Técnico em Desenvolvimento de Sistemas — Itapeva/SP. Foco em desenvolvimento web e gestão de bancos de dados.
               </p>
 
             </li>
@@ -525,43 +530,32 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Experience</h3>
+            <h3 class="h3">Experiência</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">IT Intern - OESL Automotive</h4>
+              <h4 class="h4 timeline-item-title">Estagiária de TI — Neuwerk Brasil LTDA</h4>
 
-              <span>August 2025 — Present</span>
+              <span>Agosto 2025 — atualmente &nbsp;🟢</span>
 
               <p class="timeline-text">
-                User support via BMC ticketing system. Corporate computer and systems maintenance. Development of scripts and automation to optimize internal processes. Remote and on-site employee support.
+                Atendimento aos usuários via sistema de chamados BMC. Suporte na manutenção de computadores e sistemas corporativos. 
+                Desenvolvimento de scripts e automações para otimização de processos internos. Suporte remoto e presencial aos colaboradores.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">IT Intern - SOUTOENG</h4>
+              <h4 class="h4 timeline-item-title">Estagiária de Informática — SOUTOENG</h4>
 
-              <span>February 2024 — August 2025</span>
-
-              <p class="timeline-text">
-                Development and maintenance of the institutional website using WordPress and Elementor. Technical support for computer maintenance and formatting. Spreadsheet and internal process automation for administrative optimization.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Supervising Census Agent - IBGE</h4>
-
-              <span>August 2022 — December 2022</span>
+              <span>Fevereiro 2024 — Agosto 2025</span>
 
               <p class="timeline-text">
-                Supervised enumerator teams during field activities. Planned and monitored demographic perimeter mapping and data collection. Monitored data quality and compliance with established deadlines.
+                Automação de planilhas e processos administrativos. Manutenção e suporte técnico de computadores. Apoio em sistemas internos e organização de dados.
               </p>
 
             </li>
@@ -572,23 +566,23 @@
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">Technical Skills</h3>
+          <h3 class="h3 skills-title">Habilidades Técnicas</h3>
 
           <ul class="skills-list content-card">
 
             <li class="skills-item" style="margin-bottom: 15px;">
-              <h5 class="h5" style="color: var(--orange-yellow-crayola);">Languages</h5>
-              <p style="color: var(--light-gray); font-size: var(--fs-6); margin-top: 5px;">C/C++, Python, Java, Dart, TypeScript</p>
+              <h5 class="h5" style="color: var(--orange-yellow-crayola);">Automação &amp; IA</h5>
+              <p style="color: var(--light-gray); font-size: var(--fs-6); margin-top: 5px;">n8n (self-hosted), workflows, integração de APIs, visão computacional (YOLO)</p>
             </li>
 
             <li class="skills-item" style="margin-bottom: 15px;">
-              <h5 class="h5" style="color: var(--orange-yellow-crayola);">Backend</h5>
-              <p style="color: var(--light-gray); font-size: var(--fs-6); margin-top: 5px;">Java (Spring Boot), Python, REST APIs</p>
+              <h5 class="h5" style="color: var(--orange-yellow-crayola);">Backend &amp; Dados</h5>
+              <p style="color: var(--light-gray); font-size: var(--fs-6); margin-top: 5px;">Java (Spring Boot), Python, APIs REST, MySQL, PostgreSQL, Supabase</p>
             </li>
 
             <li class="skills-item" style="margin-bottom: 15px;">
               <h5 class="h5" style="color: var(--orange-yellow-crayola);">Frontend</h5>
-              <p style="color: var(--light-gray); font-size: var(--fs-6); margin-top: 5px;">React, JavaScript, HTML/CSS</p>
+              <p style="color: var(--light-gray); font-size: var(--fs-6); margin-top: 5px;">React, TypeScript, HTML/CSS</p>
             </li>
 
             <li class="skills-item" style="margin-bottom: 15px;">
@@ -597,8 +591,8 @@
             </li>
 
             <li class="skills-item" style="margin-bottom: 15px;">
-              <h5 class="h5" style="color: var(--orange-yellow-crayola);">Databases</h5>
-              <p style="color: var(--light-gray); font-size: var(--fs-6); margin-top: 5px;">MySQL, PostgreSQL</p>
+              <h5 class="h5" style="color: var(--orange-yellow-crayola);">Idioma</h5>
+              <p style="color: var(--light-gray); font-size: var(--fs-6); margin-top: 5px;">Português (nativo) &nbsp;·&nbsp; Inglês A2</p>
             </li>
 
             <li class="skills-item">
@@ -626,11 +620,41 @@
           <h2 class="h2 article-title">Projetos</h2>
         </header>
 
+        <!-- FEATURED PROJECT -->
+        <section class="featured-project">
+          <h3 class="h3" style="margin-bottom: 16px; color: var(--light-gray); font-size: var(--fs-7); text-transform: uppercase; letter-spacing: 1.5px;">✦ Destaque</h3>
+          <a href="https://labriot-website.vercel.app/projects/roboflow" target="_blank" class="featured-project-card">
+            <figure class="featured-project-img">
+              <img src="./assets/images/project-labriot-roboflow.jpg" alt="Labriot x Roboflow" loading="lazy">
+              <div class="featured-overlay">
+                <span class="featured-badge">🔗 Ver Projeto</span>
+              </div>
+            </figure>
+            <div class="featured-project-info">
+              <div class="featured-tags">
+                <span class="tag">Artificial Intelligence</span>
+                <span class="tag">Computer Vision</span>
+                <span class="tag">YOLOv8</span>
+                <span class="tag">Roboflow</span>
+              </div>
+              <h3 class="h3 featured-title">Motherboard Component Detector</h3>
+              <p class="featured-desc">
+                Modelo de visão computacional treinado com YOLOv8 para detectar e classificar componentes eletrônicos em placas-mãe com alta precisão. 
+                Dataset anotado via Roboflow, deploy e showcase publicado no <strong>Labriot</strong> — plataforma open-source de projetos de IA.
+              </p>
+              <div class="featured-meta">
+                <span>Python · YOLOv8 · Roboflow · OpenCV</span>
+                <span class="featured-link">labriot-website.vercel.app ↗</span>
+              </div>
+            </div>
+          </a>
+        </section>
+
         <section class="projects">
 
           <ul class="filter-list">
             <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
+              <button class="active" data-filter-btn>Todos</button>
             </li>
             <li class="filter-item">
               <button data-filter-btn>Artificial Intelligence</button>
@@ -651,7 +675,7 @@
               </div>
             </button>
             <ul class="select-list">
-              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Todos</button></li>
               <li class="select-item"><button data-select-item>Artificial Intelligence</button></li>
               <li class="select-item"><button data-select-item>Systems & Infra</button></li>
               <li class="select-item"><button data-select-item>Mobile & App</button></li>
@@ -659,6 +683,21 @@
           </div>
 
           <ul class="project-list">
+
+            <!-- BaseZeroUm -->
+            <li class="project-item active" data-filter-item data-category="systems &amp; infra">
+              <a href="https://basezeroum.com.br" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="globe-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="BaseZeroUm" loading="lazy">
+                </figure>
+                <h3 class="project-title">BaseZeroUm — Sistema de Gestão</h3>
+                <p class="project-category">Systems &amp; Infra</p>
+                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">Sistema de gestão empresarial completo (freelance): notas, insumos, fornecedores e clientes, com automações integradas. (basezeroum.com.br)</p>
+              </a>
+            </li>
 
             <!-- Nexa -->
             <li class="project-item active" data-filter-item data-category="systems & infra">
@@ -669,9 +708,9 @@
                   </div>
                   <img src="./assets/images/project-7.png" alt="Nexa" loading="lazy">
                 </figure>
-                <h3 class="project-title">Nexa - Home Automation Assistant</h3>
+                <h3 class="project-title">Nexa — Sistema de Notificações</h3>
                 <p class="project-category">Systems & Infra</p>
-                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">Centralized home automation assistant for Raspberry Pi to control IoT devices locally. (TypeScript)</p>
+                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">Sistema de notificações para a Secretaria da Saúde de Ponta Grossa. Backend Java (Spring Boot) + frontend TypeScript. (LABRIOT/UTFPR)</p>
               </a>
             </li>
 
@@ -684,9 +723,9 @@
                   </div>
                   <img src="./assets/images/project-1.jpg" alt="TalentMatch" loading="lazy">
                 </figure>
-                <h3 class="project-title">TalentMatch</h3>
+                <h3 class="project-title">MEIU — Rankeamento de Currículos</h3>
                 <p class="project-category">Artificial Intelligence</p>
-                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">AI-powered resume screening platform using Google Gemini API to rank candidates across 9 pillars. (JS, Python, React)</p>
+                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">Sistema de classificação automática de currículos com React (frontend), Python (backend) e API Gemini. (Projeto com empresa parceira)</p>
               </a>
             </li>
 
@@ -701,7 +740,7 @@
                 </figure>
                 <h3 class="project-title">Motherboard Component Detector</h3>
                 <p class="project-category">Artificial Intelligence</p>
-                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">Computer vision model (YOLOv8) to detect and classify electronic components on motherboards. (Python)</p>
+                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">Modelo YOLOv8 (~82% mAP@0.5) para detectar componentes eletrônicos em placas-mãe. Visão computacional com Python. (LABRIOT)</p>
               </a>
             </li>
 
@@ -716,7 +755,7 @@
                 </figure>
                 <h3 class="project-title">InventoryFlow</h3>
                 <p class="project-category">Mobile & App</p>
-                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">Flutter inventory management app with PocketBase backend featuring native Excel reports. (Dart, Flutter)</p>
+                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">App Flutter de gestão de estoque com backend PocketBase e relatórios Excel nativos. (Dart, Flutter)</p>
               </a>
             </li>
 
@@ -731,7 +770,7 @@
                 </figure>
                 <h3 class="project-title">PalmSync</h3>
                 <p class="project-category">Systems & Infra</p>
-                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">Real-time robotic hand control using MediaPipe tracking and Arduino servo motors. (Python, Arduino)</p>
+                <p class="project-category" style="margin-top: 10px; font-size: 12px; color: var(--light-gray); text-transform: none;">Controle de mão robótica em tempo real com rastreamento MediaPipe e servos Arduino. (Python, C++, Arduino)</p>
               </a>
             </li>
 

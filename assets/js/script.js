@@ -82,7 +82,7 @@ const filterFunc = function (selectedValue) {
 
   for (let i = 0; i < filterItems.length; i++) {
 
-    if (selectedValue === "all") {
+    if (selectedValue === "all" || selectedValue === "todos") {
       filterItems[i].classList.add("active");
     } else if (selectedValue === filterItems[i].dataset.category) {
       filterItems[i].classList.add("active");
@@ -144,8 +144,20 @@ const pages = document.querySelectorAll("[data-page]");
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
 
+    const navText = this.innerHTML.toLowerCase();
+    // Map Portuguese nav labels to data-page values
+    const pageMap = {
+      'sobre mim': 'about',
+      'currículo': 'resume',
+      'projetos': 'portfolio',
+      'about': 'about',
+      'resume': 'resume',
+      'portfolio': 'portfolio'
+    };
+    const targetPage = pageMap[navText] || navText;
+
     for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
+      if (targetPage === pages[i].dataset.page) {
         pages[i].classList.add("active");
         navigationLinks[i].classList.add("active");
         window.scrollTo(0, 0);
